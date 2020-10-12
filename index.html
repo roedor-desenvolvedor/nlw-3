@@ -2,25 +2,38 @@
 <html lang="pt_BR">
 	<head>
 		<link rel="icon" href="public/images/logo-icon.png" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap"
+		/>
 		<link rel="stylesheet" href="public/css/main.css" />
+		<link rel="stylesheet" href="public/css/page-landing.css" />
+		<link rel="stylesheet" href="public/css/animations.css" />
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale-1.0" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Happy</title>
 	</head>
 	<body>
-		<div id="#page-landing">
-			<div id="#container">
+		<div id="page-landing">
+			<div id="container">
 				<header>
-					<img src="public/images/logo.svg" alt="Logo Happy" />
-					<div>
+					<img
+						class="animate-up"
+						src="public/images/logo.svg"
+						alt="Logo Happy"
+						id="logo"
+					/>
+					<div class="location animate-up">
 						<strong>Rio do Sul</strong>
 						<p>Santa Catarina</p>
 					</div>
 				</header>
 				<main>
-					<h1>Leve felicidade para o mundo</h1>
-					<section>
-						<p>Visite orfanatos e mude o dia de muitas crianças.</p>
+					<h1 class="animate-up">Leve felicidade para o mundo</h1>
+					<section class="visit">
+						<p class="animate-up">
+							Visite orfanatos e mude o dia de muitas crianças.
+						</p>
 						<a href="#" title="Visite orfanatos"
 							><img
 								src="public/images/arrow.svg"
