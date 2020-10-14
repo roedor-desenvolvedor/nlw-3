@@ -14,3 +14,18 @@
 	animation-duration: 0.3s;
 	animation-fill-mode: backwards;
 }
+
+@keyframes slide-right {
+	from {
+		transform: translateX(-100%);
+		
+	}
+	to {
+		transform: translateX(0);
+	}
+}
+
+.animate-right {
+	animation-name: slide-right;
+	animation-duration: .3s;
+}

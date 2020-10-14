@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 :root {
@@ -9,7 +10,6 @@
 
 body {
 	height: 100vh;
-	background-image: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
 	color: white;
 }
 
